@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  padding: 15px;
+  height: 100vh;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #150b3e;
+  padding: 15px;
+  color: #d4d2db;
+}
+
+.logo {
+  background-color: #c7d2fe;
+  border-radius: 100%;
+  color: #7c3aed;
+  padding: 10px;
+  text-align: center;
+  margin: 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 40vh;
+}
+
+.your-balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
